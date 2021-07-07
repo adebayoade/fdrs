@@ -1,0 +1,34 @@
+<div class='login'>
+  <h3>Welcome</h3>
+  <p class="bold">Upload an image or create a new face record.</p>
+  <p class="bold">Note: please ensure the image has a good quality with minimum resolution of 960 * 300 pixels.</p>
+  <form class='card' method='post'>
+    <div class='file-field input-field'>
+      <div class='btn waves-effect'>
+        <span>Image</span>
+        <input type='file' multiple />
+      </div>
+      <div class='file-path-wrapper'>
+        <input
+          class='file-path validate'
+          type='text'
+          placeholder='No file choosen'
+        />
+      </div>
+    </div>
+
+    <br />
+    <center>
+      <div class='row'>
+        <button
+          type='submit'
+          name='btn_login'
+          class='col s12 btn btn-large waves-effect'
+        >Detect Face</button>
+      </div>
+    </center>
+  </form>
+
+  <div class='center'><a class='' href='/add'>Create Face Record</a></div>
+
+</div>

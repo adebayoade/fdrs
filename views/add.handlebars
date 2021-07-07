@@ -1,0 +1,38 @@
+<h3>Add a new record:</h3>
+
+<form action='/send' method='POST' class='centered mt-10 ml-10 mr-10'>
+  <div class='input-field form-group'>
+    <label class='form-label' for='firstname'>First Name</label>
+    <input class='validate' type='text' name='firstname' required />
+  </div>
+  <div class='input-field form-group'>
+    <label class='form-label' for='lastname'>Last Name</label>
+    <input
+      class='validate'
+      type='text'
+      name='lastname'
+      id='lastname'
+      required
+    />
+  </div>
+  <div class='file-field input-field'>
+    <div class='btn'>
+      <span>Image</span>
+      <input type='file' multiple />
+    </div>
+    <div class='file-path-wrapper'>
+      <input
+        class='file-path validate'
+        type='text'
+        placeholder='Upload a clear passport photograph'
+      />
+    </div>
+  </div>
+  <input
+    type='submit'
+    class='btn btn-primary'
+    id='submit'
+    value='Submit'
+    required
+  />
+</form>
