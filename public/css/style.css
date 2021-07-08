@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+.cursive {
+  font-family: 'Dancing Script', cursive;
+}
 .alert {
   padding: 10px;
   margin-bottom: 10px;
   /* color: #fff; */
   border-radius: 5px;
+}
+.danger {
+  color: crimson;
 }
 .alert-danger {
   background-color: pink;
@@ -30,8 +37,13 @@
 
 nav {
   background-color: rgba(0, 0, 0, 0.644);
+  padding: 0 10px;
 }
 
 .bold {
   font-weight: bold;
+}
+
+footer {
+  border-top: 1px solid rgb(226, 224, 224);
 }
